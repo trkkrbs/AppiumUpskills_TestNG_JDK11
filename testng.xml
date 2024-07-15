@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="generalstore.utils.Listener"/>
+    </listeners>
+    <test name="General Store Testleri">
+        <packages>
+            <package name="generalstore.tests"/>
+        </packages>
+    </test>
+</suite>
+<!--
+       Burasi Yorum Satiri  CMD + / ile yoruma alabiliyoruz.
+
+  <package name="generalstore.tests"></package> kisminda name'i belirtirken;
+   tests klasorumuze sag tik yaparak CopyPath Reference ile generalstore.tests yolunu ekliyoruz.
+   Gordugunuz uzere yol belirtirken XML dosyalarda / yerine . kullaniliyor.
+
+
+-->
